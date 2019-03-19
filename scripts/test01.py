@@ -7,7 +7,7 @@ sys.path.append(os.getcwd())
 
 
 
-class  Test01:
+class  Test01():
     @allure.step("新增地址方法被执行")
     def test001(self):
         allure.attach("点击新增地址按钮", "")
