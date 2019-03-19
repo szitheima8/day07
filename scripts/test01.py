@@ -15,7 +15,7 @@ class  Test01:
         allure.attach("点击新增输入手机号：","")
         allure.attach("点击新增输入收货地址：","")
         allure.attach("点击新增输入点击新增：","")
-        print("test001被执行")
+        print("test001 被执行")
 
     allure.attach("点击新增输入点击更新：", "")
     # @allure.step("更新地址方法被执行")
